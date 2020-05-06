@@ -6,8 +6,9 @@ services:
         volumes:
             - ./output:/usr/src/output
             - ./input:/usr/src/input
+            # - ./Zend-Decoder:/usr/src/Zend-Decoder
         command: > 
             bash -c "
             cd Zend-Decoder && 
-            php index2.php ../input/logincheck.php > ../output/1.php
+            php decoder.php
             "

@@ -1,0 +1,5 @@
+input/*
+output/*
+!input/logincheck.php
+!output/1.php
+Zend-Decoder/1.py
